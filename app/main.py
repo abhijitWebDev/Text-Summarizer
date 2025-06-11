@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from app.routes import router
+from fastapi.responses import Response  # Add this line
 import os
 
 app = FastAPI()
